@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+:root{
+    --secundary_blue:#1A9AF7;
+    --naranja_texto: #FF9536;
+    --just-white:#FFFFFF;
+
+}
+.section1{
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    margin-top: 41px;
+    color: var(--just-white);
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    padding-top: 27px;
+    
+}
+.section1-img{
+    width: 100px;
+    margin-bottom: 36px;
+}
+.section1 h2{
+    text-align: center;
+    width: 288px;
+    border: 1px solid red;
+}
+.section1 p{
+    text-align: center;
+    width: 288px;
+    border: 1px solid red;
+    margin-top: 24px;
+}
+.section1 a{
+    border: 1px solid brown;
+    padding: 15px 48px 15px 16px;
+    position: relative;
+    top: 32px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2-iconoBitcoin{
+    width: 195px;
+    height: 195px;
+}
+.section2 h1{
+    
+}
+.section2-p-h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    width: 288px;
+    font-size: 24px;
+    border: 1px solid white;
+}
+
+.section2-p{
+    text-align: center;
+    width: 288px;
+    
+}
+.section2 article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section2 article div{
+    width: 165px;
+}
+.section2 article h2{
+    color: var(--naranja_texto);
+    margin-top: 48px;
+    width: 81px;
+}
+.section2 .actualizado{
+    width: 186px;
+    margin-top: 24px;
+}
+.tabla1{
+    border: 1px solid red;
+}
+.tabla1 td{
+    padding: 10px 12px;
+    border: 1px solid green;
+}
+
