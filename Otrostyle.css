@@ -10,12 +10,19 @@
 
 }
 .section1{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    ;
     height: 302px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 41px;
     color: var(--just-white);
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
@@ -28,45 +35,81 @@
 }
 .section1 h2{
     text-align: center;
-    width: 288px;
+    width: 90%vw;
     border: 1px solid red;
 }
 .section1 p{
     text-align: center;
-    width: 288px;
+    width: 90vw;
     border: 1px solid red;
     margin-top: 24px;
 }
-.section1 a{
-    border: 1px solid brown;
-    padding: 15px 48px 15px 16px;
+
+
+
+.section1 a {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.23px;
+    text-align: center;
+    /* border: 1px solid brown; */
+    padding: 15px 15px 15px 15px;
     position: relative;
-    top: 32px;
+    top: 48px;
+    text-decoration: none;
+    color: black;
+    background-color: #FAF8F7;
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 16%);
+    border-radius: 4px;
+}
+.section1-a-span{
+    /* background-image: url("./assets/icon/Vector.svg"); */
+
+    background-image: url("./assets/icon/Vector.svg");
+
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-size: contain;
+    margin-left: 14px;
+    /* width: 114px; */
+    padding: 7.41px 8px;
+    
+    /* height: 18px; */
+    cursor: pointer;
+    /* border: 2px solid brown;*/
 }
 .section2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 35px;
 }
-.section2-iconoBitcoin{
+
+.section2-iconoBitcoin {
     width: 195px;
-    height: 195px;
+    padding-bottom: 40px;
 }
-.section2 h1{
-    
+.section2_div1{
+    border: 1px solid red;
 }
+
 .section2-p-h2 {
     text-align: center;
     margin-bottom: 24px;
     width: 288px;
     font-size: 24px;
     border: 1px solid white;
+    position: relative;
+    top: 9px;
+    border: 1px solid #000;
 }
 
 .section2-p{
     text-align: center;
     width: 288px;
+    border: 1px solid blue;
     
 }
 .section2 article{
@@ -75,20 +118,29 @@
     align-items: center;
     flex-direction: column;
 }
-.section2 article div{
-    width: 165px;
+.tableAndArrows{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    width: 320px;
+}
+.section2 article div {
+    width: 196px;
+    padding-left: 4px;
 }
 .section2 article h2{
     color: var(--naranja_texto);
     margin-top: 48px;
     width: 81px;
 }
+
 .section2 .actualizado{
     width: 186px;
     margin-top: 24px;
 }
 .tabla1{
     border: 1px solid red;
+    width: 196px;
 }
 .tabla1 td{
     padding: 10px 12px;
