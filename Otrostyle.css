@@ -134,9 +134,12 @@
     width: 81px;
 }
 
-.section2 .actualizado{
-    width: 186px;
+.section2 .actualizado {
+    width: 202px;
     margin-top: 24px;
+    background: #FFE9D4;
+    border-radius: 7px;
+    padding: 8px;
 }
 .tabla1{
     border: 1px solid red;
